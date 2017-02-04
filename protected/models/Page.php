@@ -18,6 +18,11 @@ class Page extends CActiveRecord
 		return '{{page}}';
 	}
 
+	public function primaryKey()
+	{
+		return 'id';
+	}
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
